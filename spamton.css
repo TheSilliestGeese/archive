@@ -1,0 +1,75 @@
+
+html {
+    height: 100%;
+}
+body {
+    background-image: url('/flash/spamton.gif');
+    height: 100%;
+    margin: 0;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+h1 {
+	font-family:'Comic Sans MS', cursive;
+	line-height:1em;
+	color:#fff9d6;
+	font-weight:bold;
+	font-size:92px;
+	text-shadow:0px 0px 0 rgb(179,179,179),1px 1px 0 rgb(113,113,113),2px 2px 0 rgb(47,47,47), 3px 3px 0 rgb(-19,-19,-19),4px 4px 3px rgba(0,0,0,0),4px 4px 1px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,.2);}
+}
+
+.3DText {
+	font-family:'Comic Sans MS', cursive;
+	line-height:1em;
+	color:#fff9d6;
+	font-weight:bold;
+	font-size:92px;
+	text-shadow:0px 0px 0 rgb(179,179,179),1px 1px 0 rgb(113,113,113),2px 2px 0 rgb(47,47,47), 3px 3px 0 rgb(-19,-19,-19),4px 4px 3px rgba(0,0,0,0),4px 4px 1px rgba(0,0,0,0.5),0px 0px 3px rgba(0,0,0,.2);}
+}
+
+p {
+	font-family:'Comic Sans MS', cursive;
+	line-height:1em;
+	color:#fff9d6;
+	font-weight:bold;
+    font-size: 160%;
+}
+a {
+    color: rgb(255, 255, 255);
+    font-family: 'Comic Sans MS';
+    font-size: 200%;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.center > * {
+    margin: 10px 0; /* Adjust this value as needed to control vertical spacing */
+}
+
+a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgb(255, 174, 201, 1) 0%, rgba(255, 241, 1, 1) 100%);
+    text-decoration: none;
+}
+
+a.wacky {
+	color: rgb(255, 255, 255);
+    font-family: Comic Sans MS;
+    font-size: 200%;
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgb(255, 174, 201, 1) 0%, rgba(255, 241, 1, 1) 100%);
+    text-decoration: none;
+}

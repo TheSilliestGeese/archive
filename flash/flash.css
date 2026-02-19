@@ -1,0 +1,21 @@
+<style>
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+	background: rgb(0,0,0);
+  }
+
+  #ruffle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ruffle-player {
+    display: block;
+    margin: 0 auto;
+  }
+</style>
